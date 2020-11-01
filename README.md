@@ -1,7 +1,8 @@
 # CSharp-Library
 A very basic C# library for https://MyAuth.Me.
 
-Keep in mind this is a very basic project!
+Keep in mind this is a very basic project just for showing basic usage.
+
 
 # Cons and Pros
 Pros | Cons
