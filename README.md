@@ -7,3 +7,4 @@ Keep in mind this is a very basic project!
 Pros | Cons
 ------------ |-----
 Very basic  | No encryption.
+Clean Classes | No json deserialization
