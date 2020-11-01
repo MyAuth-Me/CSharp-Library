@@ -33,8 +33,7 @@ if(res.status == ResponseError.success)
       break;
     case ResponseError.internal_error:
       Console.WriteLine("[-] Internal server issue!");
-      break;
-                     
+      break;                    
     }  
 }
 ```
@@ -46,3 +45,4 @@ Pros | Cons
 ------------ |-----
 Very basic  | No encryption.
 Clean Classes | No json deserialization
+... | Messy API code
