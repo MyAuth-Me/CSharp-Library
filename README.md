@@ -65,6 +65,8 @@ These arguments are treated as query arguments on the uri so if I input
 `args=ip=1.1.1.1|port=323`
 The end URI would be `api.example.com/info.php?ip=1.1.1.1&port=323` where the web-server then returns the returned data
 
+## Basic Intergrity Check
+You can check the intergrity of the website by hashing the current UTC time without seconds in this format `Year-month-day hour:minute` and hashing it with md5 and then testing if it matches https://myauth.me/api/verify.php
 
 # Cons and Pros
 Pros | Cons
